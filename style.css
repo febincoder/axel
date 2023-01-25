@@ -1,0 +1,403 @@
+body {
+  height: auto;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  background: #e9e4e4;
+  height: 5px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e5e7e6;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8b400;
+}
+
+
+.wrapper {
+  border: 1px solid #000000;
+  height: calc(100vh - 2px);
+  margin: 0 auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+  width: calc(100vw - 2.55px);
+}
+
+.scroll-top {
+  background: #6c6c6c;
+  border: 0;
+  border-radius: 50%;
+  bottom: 0;
+  cursor: pointer;
+  height: 55px;
+  margin: 15px;
+  opacity: 0.75;
+  position: fixed;
+  right: -70px;
+  transition: right 0.2s ease-in-out;
+  width: 55px;
+  z-index: 99;
+}
+.scroll-top.visible {
+  right: 0;
+}
+
+.arrow {
+  border: solid #ffffff;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  margin-top: 5px;
+  padding: 4px;
+}
+.arrow.up {  
+  transform: rotate(-135deg);
+}
+
+.content-container {
+  display: flex;
+  height: 300px;
+  width: 100%
+}
+
+.content {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  margin: auto;
+}
+.dropbtn {
+    
+    color:#140B84;
+    padding: 40px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropbtn {
+    
+   
+    padding: 40px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+       
+  }
+  #a{
+    margin-top: 10px;
+
+  }
+  #ab{
+    margin-top: 15px;
+
+  }
+ 
+  #b{
+    margin-top: -10px;
+  }
+ 
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color:#080808;
+    height: 20px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  
+  /* Change color of dropdown links on hover */
+  
+  .dropdown-content .a:hover{
+    color: #080808;
+  }
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .nav-item .nav-link{
+    color: #140B84;
+    
+  }
+  .bg{
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.tech1{
+  position: relative;
+  left: 50px;
+  
+}
+.tech{
+  display: flex;
+  margin-top: 16%;
+  color: #140B84; 
+  font-weight: normal;
+  font-family:Arial, Helvetica, sans-serif;
+  
+ 
+}
+.mm{
+  font-size: larger;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #434343da;
+  font-weight: normal;
+  letter-spacing: .5px;
+}
+.div{
+ 
+  padding-left: 50px;
+  overflow-x: visible;
+
+}
+.our .ser{
+  text-align: center;
+  color: #434343da;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: .5px;
+  font-weight: 10px;
+
+}
+#feb{
+  color: #140B84;
+
+  font-family:Arial, Helvetica, sans-serif;
+}
+.our .re{
+  text-align: center;
+  color:#140B84;
+  font-family:Arial, Helvetica, sans-serif;
+  letter-spacing: .5px;
+  
+}
+
+
+.smallimg{
+  grid-row: auto;
+
+}
+
+.soft{
+  color:#140B84;
+  font-weight:600;
+  font-size: large;
+  font-family:Arial, Helvetica, sans-serif;
+  letter-spacing: .5px;
+
+}
+.para{
+  font-weight: lighter;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #434343da;
+
+}
+body{
+  overflow-x: hidden;
+}
+.abt{
+  color: #434343da;
+  font-weight: lighter;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: large;
+  letter-spacing: .5px;
+}
+.h1{
+  color:#140B84;
+  font-family:'Prompt', sans-serif;
+  letter-spacing: .5px;
+  font-weight: 400;
+  
+}
+.para2{
+  font-weight: lighter;
+  font-family:'Prompt', sans-serif;
+  color: #434343da;
+  font-weight: inherit;
+  line-height: 30px;
+}
+.we{
+  color: #434343b2;
+  font-family:'Prompt', sans-serif;
+  font-size: larger;
+  position: relative;
+  left: 24px;
+}
+.sh{
+  color:#140B84;
+  font-family:Arial, Helvetica, sans-serif;
+  letter-spacing: .5px;
+  font-weight: 400;
+
+}
+.para4{
+  font-weight: lighter;
+  font-family:'Prompt', sans-serif;
+  color: #434343da;
+  line-height: 30px;
+  
+ 
+}
+#ks{
+  
+  color:#140B84;
+}
+.sp{
+  font-weight: lighter;
+  font-family:'Prompt', sans-serif;
+  color: #434343da;
+  line-height: 30px;
+  
+}
+#sml1{
+  display: flex;
+}
+#fr{
+  height:40px;
+  width: 40px;
+}
+#bgclour{
+  background-color: hsl(200, 57%, 91%);
+  
+}
+#gt{
+  font-weight: lighter;
+  font-family:'Prompt', sans-serif;
+}
+#tran{
+  color:#140B84;
+  
+  letter-spacing: .5px;
+  font-size: xx-large;
+  
+}
+.mf{
+  color:#140B84;
+  font-size: larger;
+  letter-spacing: .5px;
+}
+#ft{
+  color: #434343da;
+  font-family:'Prompt', sans-serif;
+}
+.footer{
+  background-color: #202350;
+  width: 10000vh;
+  background: cover;
+}
+@media  (max-width:530px){
+  .mm{
+    margin-top: -72px;
+  }
+  .bg{
+    height: 150vh;
+    background-size: cover;
+    
+   }
+}
+@media  (max-width:400px) {
+  .tech1{
+    position: relative;
+   left: 21px;
+   font-weight: normal;
+   font-family:Arial, Helvetica, sans-serif;
+   top: 190px;
+   font-size: 41px;
+   padding: 3px;
+  }
+  .m{
+    width: 350px;
+  }
+  .bg{
+   height: 141vh;
+   background-size: cover;
+   
+  }
+  .div{
+ 
+    padding-left: 0px;
+  }
+  #navbrand{
+    margin-left: 34px;
+  }
+  #tpara{
+    position: relative;
+    top: 230px;
+    padding: 20px;
+  }
+  #sm1{
+    position: relative;
+    left: -34px;
+  }
+  #sm2{
+    position: relative;
+    top: 50px;
+  }
+  #sm3{
+    position: relative;
+    top: 100px;
+  }
+  .img3{
+    position: relative;
+    left: -34px;
+  }
+  .re{
+    width: px;
+  }
+  *{
+    overflow-x:clip;
+  }
+  .img3{
+    padding-bottom: 50px;
+  } 
+  .para2{
+    position: relative;
+    top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .abt{
+    position: relative;
+    top: 35px;
+  }
+  .h1{
+    position: relative;
+    top: 50px;
+  }
+  #img5{
+    width: 350px;
+    height: 300px;
+  }
+  .we{
+    margin-left: 10px;
+  }
+}
