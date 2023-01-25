@@ -338,6 +338,9 @@ body{
   .m{
     width: 350px;
   }
+  *{
+     overflow-x: hidden;
+   }
   .bg{
    height: 141vh;
    background-size: cover;
